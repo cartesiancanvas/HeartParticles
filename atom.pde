@@ -17,11 +17,10 @@ class atom {
     strokeWeight(sw);
     fill(255,af*90);
     textSize(10);
-    text('h', x, y);
-    text('a', x+inc, y+inc);
-    text('p', x+3*inc, y+3*inc);
-    text('p', x+4*inc, y+4*inc);
-    text('y', x+5*inc, y+5*inc);
+    text('l', x, y);
+    text('o', x+inc, y+inc);
+    text('v', x+3*inc, y+3*inc);
+    text('e', x+4*inc, y+4*inc);
   }
   void update() {
     theta+=delta;
