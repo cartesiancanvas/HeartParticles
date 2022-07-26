@@ -2,7 +2,7 @@ float r_min=15;
 float scaling;
 float size_diff=0.01;
 int n=1000;
-int m=100;
+int m=400;
 atom[] atoms;
 rain[] drops;
 void setup() {
