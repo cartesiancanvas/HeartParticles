@@ -14,14 +14,12 @@ class rain {
   void display() {
     strokeWeight(weight);
     textSize(size);
-    text('b', x, y);
-    text('i', x, y+50*inc);
-    text('r', x, y+100*inc);
-    text('t', x, y+150*inc);
-    text('h', x, y+200*inc);
-    text('d', x, y+250*inc);
-    text('a', x, y+300*inc);
-    text('y', x, y+350*inc);
+    text('h', x, y);
+    text('e', x, y+50*inc);
+    text('l', x, y+100*inc);
+    text('l', x, y+150*inc);
+    text('o', x, y+200*inc);
+
   }
   void edges() {
     if (y>height) {
